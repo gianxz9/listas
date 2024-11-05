@@ -1,0 +1,85 @@
+let numeros = [10, 20, 5, 30, 40];
+
+console.log( numeros.indexOf(5));
+
+let nomes = ["ana", "beatriz", "Carlos"];
+
+let contemCarlos = nomes.includes("Carlos");
+
+console.log (contemCarlos);
+
+let frutas = ["maçã", "banana", "laranja"];
+
+for (const fruta of frutas) {
+  console.log(fruta);
+}
+
+let numeros2 = [5, 10, 15, 20];
+
+console.log( numeros2.indexOf(15));
+
+let cores = ["azul", "verde", "vermelho"];
+
+let contemAmarelo = cores.includes("amarelo");
+
+console.log (contemAmarelo);
+
+let linguagens = ["JavaScript", "Python", "Java"];
+
+for (const programas of linguagens) {
+  console.log(programas);
+}
+
+let animais = ["gato", "cachorro", "pássaro", "cachorro"];
+
+console.log( animais.indexOf("cachorro"));
+
+let frutas2 = ["maçã", "banana", "uva"];
+
+let contemLaranja = frutas2.includes("laranja");
+
+console.log (contemLaranja);
+
+let numeros3 = [1, 2, 3, 4];
+let soma = 0;
+
+numeros3.forEach(numero => {
+  soma += numero;
+});
+
+console.log(soma); 
+
+let frutas3 = ["banana", "maçã", "laranja"];
+
+let contemMorango = frutas3.includes("morango");
+
+console.log (contemMorango);
+
+let linguagens2 = ["JavaScript", "Python", "Java"];
+
+console.log( linguagens2.indexOf("Python"));
+
+let numeros4 = [2, 4, 6];
+let numerosMultiplicados = [];
+
+numeros4.forEach(numero => {
+  numerosMultiplicados.push(numero * 2);
+});
+
+console.log(numerosMultiplicados);  
+
+let esportes = ["futebol", "basquete", "natação"];
+
+let contemBaisebol = esportes.includes("baisebol");
+
+console.log (contemBaisebol);
+
+let frutas4 = ["maçã", "banana", "laranja"];
+
+let quantidadeFrutas = frutas4.length;
+
+console.log(quantidadeFrutas); 
+
+let cores2 = ["azul", "verde", "vermelho", "amarelo"];
+
+console.log( cores2.indexOf("vermelho"));
