@@ -1,0 +1,17 @@
+let ingredientes = ["leite", "açúcar", "pão", "manteiga"];
+
+console.log( ingredientes.indexOf("pão"));
+
+let numeros = [5, 10, 15, 20];
+
+let contem25 = numeros.includes(25);
+
+console.log (contem25);
+
+let valores = [3, 6, 9, 12];
+
+let soma = valores.reduce((acumulador, valorAtual) => acumulador + valorAtual, 0);
+
+let media = soma / valores.length;
+
+console.log(media); 
